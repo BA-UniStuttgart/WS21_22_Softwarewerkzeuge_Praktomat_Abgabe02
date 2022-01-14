@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-I", "${workspaceFolder}/vendor/libGnuplot/include/",
+                "-L", "${workspaceFolder}/vendor/bin/",
+                "-g", "${workspaceFolder}/src/main.c",
+                "-l", "${workspaceFolder}/vendor/libGnuplot/bin/libGnuplot.a",
+                "-o", "${workspaceFolder}/bin/main.exe"
+            ]
+        }
+    ]
+}

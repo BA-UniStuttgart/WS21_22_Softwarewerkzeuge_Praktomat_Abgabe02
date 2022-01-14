@@ -1,0 +1,1 @@
+gcc -I ../WS21_22_Softwarewerkzeuge_Praktomat_Abgabe02_libGnuplot/include/ -g ./src/main.c -l Gnuplot -L ../WS21_22_Softwarewerkzeuge_Praktomat_Abgabe02_libGnuplot/bin/ -o ./bin/main.exe && ./bin/main.exe
